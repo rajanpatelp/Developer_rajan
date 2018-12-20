@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Expense</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Expenses</value>
+    </caseValues>
+    <fields>
+        <label><!-- Actual Price --></label>
+        <name>Actual_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- CashbackAmount --></label>
+        <name>CashbackAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- CashbackSite --></label>
+        <name>CashbackSite__c</name>
+        <picklistValues>
+            <masterLabel>Alaska Air</masterLabel>
+            <translation><!-- Alaska Air --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discover</masterLabel>
+            <translation><!-- Discover --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ebates</masterLabel>
+            <translation><!-- Ebates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fatwallet</masterLabel>
+            <translation><!-- Fatwallet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MrRebates</masterLabel>
+            <translation><!-- MrRebates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rapid Rewards</masterLabel>
+            <translation><!-- Rapid Rewards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shopathome</masterLabel>
+            <translation><!-- Shopathome --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Topcashback</masterLabel>
+            <translation><!-- Topcashback --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ultimate Rewards</masterLabel>
+            <translation><!-- Ultimate Rewards --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cashback% --></label>
+        <name>Cashback__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>Car</masterLabel>
+            <translation><!-- Car --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clothes</masterLabel>
+            <translation><!-- Clothes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coupon</masterLabel>
+            <translation><!-- Coupon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronics</masterLabel>
+            <translation><!-- Electronics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gift Card</masterLabel>
+            <translation><!-- Gift Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Groceries</masterLabel>
+            <translation><!-- Groceries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health</masterLabel>
+            <translation><!-- Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Misc</masterLabel>
+            <translation><!-- Misc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Movies</masterLabel>
+            <translation><!-- Movies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rent</masterLabel>
+            <translation><!-- Rent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restaurant</masterLabel>
+            <translation><!-- Restaurant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel</masterLabel>
+            <translation><!-- Travel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilities</masterLabel>
+            <translation><!-- Utilities --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Order# --></label>
+        <name>Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- PaymentMethod --></label>
+        <name>PaymentMethod__c</name>
+        <picklistValues>
+            <masterLabel>American Express</masterLabel>
+            <translation><!-- American Express --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>American Express GC</masterLabel>
+            <translation><!-- American Express GC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bank of America</masterLabel>
+            <translation><!-- Bank of America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bluebird - Bharu</masterLabel>
+            <translation><!-- Bluebird - Bharu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bluebird - Rajan</masterLabel>
+            <translation><!-- Bluebird - Rajan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chase - Ink Bold</masterLabel>
+            <translation><!-- Chase - Ink Bold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chase - Ink Plus</masterLabel>
+            <translation><!-- Chase - Ink Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chase - Sapphire Plus</masterLabel>
+            <translation><!-- Chase - Sapphire Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chase Debit Card</masterLabel>
+            <translation><!-- Chase Debit Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discover</masterLabel>
+            <translation><!-- Discover --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kohls</masterLabel>
+            <translation><!-- Kohls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master GC</masterLabel>
+            <translation><!-- Master GC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Store GC</masterLabel>
+            <translation><!-- Store GC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visa GC</masterLabel>
+            <translation><!-- Visa GC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Washigton Federal Debit Card</masterLabel>
+            <translation><!-- Washigton Federal Debit Card --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Name --></label>
+        <name>Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Date --></label>
+        <name>Purchase_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- RebateAmt --></label>
+        <name>RebateAmt__c</name>
+    </fields>
+    <fields>
+        <label><!-- RebateStatus --></label>
+        <name>RebateStatus__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled/Denied</masterLabel>
+            <translation><!-- Cancelled/Denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Submitted</masterLabel>
+            <translation><!-- Not Submitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received</masterLabel>
+            <translation><!-- Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rebate? --></label>
+        <name>Rebate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SerialNum --></label>
+        <name>SerialNum__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Cashback Pending</masterLabel>
+            <translation><!-- Cashback Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Store Name --></label>
+        <name>Store_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax --></label>
+        <name>Tax__c</name>
+    </fields>
+    <fields>
+        <label><!-- TotalPrice --></label>
+        <name>TotalPrice__c</name>
+    </fields>
+    <layouts>
+        <layout>Expense Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

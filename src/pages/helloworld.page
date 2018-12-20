@@ -1,0 +1,21 @@
+<apex:page standardController="Contact" showHeader="true" sidebar="false" >
+  <b> HELLO {!$User.FirstName} {!$User.LastName}!!!! </b> <br/>
+  <b> Current time: {!NOW()} </b>
+<apex:form >
+    <apex:pageBlock mode="edit">
+        <apex:pageblockSection title="Information" columns="1"> 
+            
+            <apex:outputLabel value="Recommended for hire?"/>
+            <apex:inputField value="{!Contact.Title}"/>
+            
+            
+        </apex:pageblockSection>
+        <apex:pageBlockButtons >
+            <apex:commandButton action="{!save)" value="Update"/>
+        </apex:pageBlockButtons>
+    </apex:pageBlock>    
+</apex:form>
+  <apex:detail relatedList="false"/>
+  <apex:relatedList list="Cases"/>
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

@@ -1,0 +1,27 @@
+<apex:page >
+    <apex:form >
+        <apex:pageBlock mode="detail" title="Position Detail">
+        <apex:pageBlockButtons >
+            <apex:commandButton value="Edit" action="{!edit}"/>
+            <apex:commandButton value="Delete" action="{!delete}"/>
+            <apex:commandButton value="Clone" onclick="javascript:myClone();"/>
+            
+        </apex:pageBlockButtons>
+        <b>Hello World!!!</b>
+           <apex:pageBlockSection title="Information" columns="2">
+               <apex:outputLabel >Title</apex:outputLabel>
+               <apex:outputField value="Test"/>
+               <apex:outputLabel >Record Type</apex:outputLabel>
+               <apex:outputField value="Test"/>
+               <apex:outputLabel >Owner</apex:outputLabel>
+               <apex:outputField value="Test"/>
+               <apex:outputLabel >Priority</apex:outputLabel>
+               <apex:outputField value="Test"/>
+               <apex:outputLabel >Title</apex:outputLabel>
+               <apex:outputField value="Test"/>
+               <apex:outputLabel >Title</apex:outputLabel>
+               <apex:outputField value="Test"/>
+           </apex:pageBlockSection>
+            </apex:pageBlock>
+    </apex:form>
+</apex:page>

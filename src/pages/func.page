@@ -1,0 +1,6 @@
+<apex:page showHeader="true" standardController="Account">
+    Your Name is {!$User.FirstName} {!$User.LastName} <br/>
+    {! if(contains($User.FirstName,'Rajan'), true, false)} <br/>
+    <apex:outputField value="{!Account.Name}" label="Account Name"/>
+    <apex:detail relatedList="false" inlineEdit="true" showChatter="true" />
+</apex:page>

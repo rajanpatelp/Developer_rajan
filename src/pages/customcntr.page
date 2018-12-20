@@ -1,0 +1,16 @@
+<apex:page controller="mycontroller" sidebar="false">
+    <apex:form >
+        <apex:pageBlock >
+            <apex:outputLabel value="Account Name"/>            
+            <apex:inputfield value="{!account.name}"/>
+        </apex:pageBlock>
+        <apex:pageBlock >
+            <apex:outputLabel value="Account Name"/> 
+            <apex:pageBlockTable value="{!acc}" var="a">
+                <apex:column value="{!a.Name}"/>
+                <apex:column value="{!a.Rating}"/>
+            </apex:pageBlockTable>  
+        </apex:pageBlock>
+        <apex:commandButton value="Save" action="{!save}"/>
+    </apex:form>
+</apex:page>

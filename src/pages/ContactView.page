@@ -1,0 +1,25 @@
+<apex:page sidebar="false" standardController="Contact">
+    <apex:pageBlock >
+        <apex:pageBlockSection >
+            First Name :{! Contact.FirstName} <br/>
+            Last Name :{! Contact.LastName} <br/>
+            Owner Email :{! Contact.Owner.Email} <br/>
+        </apex:pageBlockSection>
+        <apex:pageblockSection >
+            <apex:dataTable value="{!Contact.Cases}" var="Cases">
+                <apex:column value="{!Cases.CaseNumber}"/>
+                <apex:column value="{!Cases.Owner.username}"/>
+                <apex:column value="{!Cases.Status}"/>
+            </apex:dataTable>
+        </apex:pageblockSection>
+        <apex:detail relatedList="false"/>
+        <apex:relatedList list="Cases"/>
+        <apex:pageBlock title="Cases">
+        <apex:pageblockTable value="{!Contact.Cases}" var="Cases">
+            <apex:column value="{!Cases.CaseNumber}"/>
+            <apex:column value="{!Cases.Owner.username}"/>
+            <apex:column value="{!Cases.Status}"/>
+        </apex:pageblockTable>
+        </apex:pageBlock>
+    </apex:pageBlock>
+</apex:page>

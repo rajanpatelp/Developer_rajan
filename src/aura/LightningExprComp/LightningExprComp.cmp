@@ -1,0 +1,6 @@
+<aura:component >
+    <aura:attribute name="firstName" type="string" default="William"/>
+    <aura:attribute name="lastName" type="string" default="shake"/>
+    
+    <p>{!v.firstName + ' ' + v.lastName} </p>
+</aura:component>

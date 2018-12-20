@@ -1,0 +1,21 @@
+<apex:page sidebar="false"  recordSetVar="accounts" standardController="Account">
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageblockTable value="{!accounts}" var="a">
+                <apex:column value="{!a.name}"/>
+                <apex:column HeaderValue="Account Name"> <apex:commandlink value="{!a.name}" action="/{!a.Id}"/> </apex:column>
+                <apex:column value="{!a.industry}"/>
+                <apex:column headerValue="Fax"> <apex:inputfield value="{!a.fax}"/> </apex:column>
+                <apex:column headerValue="Rating"> <apex:inputfield value="{!a.Rating}"/> </apex:column>
+            </apex:pageblockTable>
+                <apex:panelGrid columns="2">
+                <apex:commandLink value="previous" action="{!previous}"/> 
+                <apex:commandLink value=" next" action="{!next}"/> 
+            </apex:panelGrid>
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Save" action="{!save}"/>
+                <apex:commandLink value="Cancel" action="{!cancel}"/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock>        
+    </apex:form>    
+</apex:page>
